@@ -32,7 +32,7 @@ const DataGrid = ({ rows, column, fecthmore }) => {
                             }
                         </TableRow>
                     </TableHead>
-                    <TableBody>
+                    <TableBody >
                         <InfiniteScroll
                             dataLength={rows.length}
                             next={fecthmore}
